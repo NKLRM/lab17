@@ -43,9 +43,9 @@ int main(){
 		}
 		cout << "\n";
 	}
-    delete A;
-    delete B;
-    delete C;
+    delete [] A;
+    delete [] B;
+    delete [] C;
 
 	return 0;
 }
